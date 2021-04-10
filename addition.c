@@ -3,14 +3,12 @@
 
 int main()
 {
-    int a, b, sum;
+    int firstnum, secondnum;
 
     printf("Enter two numbers to add");
-    scanf("%d%d", &a, &b);
+    scanf("%d%d", &firstnum, &secondnum);
 
-    sum = a + b;
-
-    printf("The sum =%d", sum);
+    printf("The sum =%d", firstnum + secondnum);
 
     return 0;
 
