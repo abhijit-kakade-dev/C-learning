@@ -10,14 +10,14 @@ int main()
 
     printf("Enter %d elements in an array", size);
 
-    for(i=0; i<size; i++)
+    for(i = 0; i < size; i++)
         scanf("%d", &arr[i]);
 
-    for(i=0; i< size - 1; i++)
+    for(i = 0; i < size - 1; i++)
     {   
          int flag = 0;
 
-        for(j=0; j< size - 1 - i; j++)
+        for(j = 0; j < size - 1 - i; j++)
         {
             int temp;
            
