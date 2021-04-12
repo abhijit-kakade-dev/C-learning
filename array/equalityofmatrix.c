@@ -11,23 +11,23 @@ int main()
 
     printf("\n Enter the value for 1st matrix.");
 
-    for(i=0; i<3; i++)
-        for(j=0; j<3; j++)
+    for(i = 0; i < 3; i++)
+        for(j = 0; j < 3; j++)
         {
             scanf("%d", &mat1[i][j]);
         }
 
     printf("\n Enter the values for 2nd matrix");
 
-    for(i=0; i<3; i++)
-        for(j=0; j<3; j++)
+    for(i = 0; i < 3; i++)
+        for(j = 0; j < 3; j++)
             scanf("%d", &mat2[i][j]);
 
     printf("\n Let's check the equality of two matrix");
 
-    for(i=0; i<3; i++)
+    for(i = 0; i < 3; i++)
     {
-        for(j=0; j<3; j++)
+        for(j = 0; j < 3; j++)
         {
             if( mat1[i][j] == mat2[i][j])
                 flag++;
