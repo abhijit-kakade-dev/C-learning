@@ -10,14 +10,14 @@ int main()
     
     printf("\n Enter 10 numbers in an array.");
     
-    for(i=0; i<10; i++)
+    for(i = 0; i < 10; i++)
         scanf("%d", &arr[i]);
         
     large = arr[0];
     
-    for(i=0; i<10; i++)
+    for(i = 0; i < 10; i++)
     {
-        if( arr[i] > large)
+        if(arr[i] > large)
             large = arr[i];
             
     }

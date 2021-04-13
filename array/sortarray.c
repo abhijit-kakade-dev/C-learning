@@ -8,16 +8,16 @@ int main()
 {
     int i, j, arr[size];
 
-    printf("Enter %d elements in an array", size);
+    printf("\n Enter %d elements in an array", size);
 
-    for(i=0; i<size; i++)
+    for(i = 0; i < size; i++)
         scanf("%d", &arr[i]);
 
-    for(i=0; i< size - 1; i++)
+    for(i = 0; i < size - 1; i++)
     {   
          int flag = 0;
 
-        for(j=0; j< size - 1 - i; j++)
+        for(j = 0; j < size - 1 - i; j++)
         {
             int temp;
            
@@ -38,7 +38,7 @@ int main()
 
     printf("\n Descending order array:");
 
-    for(i=0; i<size; i++)
+    for(i = 0; i < size; i++)
         printf("\n arr[%d] = %d", i, arr[i]);
 
     return 0;

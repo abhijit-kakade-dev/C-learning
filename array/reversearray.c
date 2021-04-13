@@ -10,13 +10,13 @@ int main()
 
     printf("\n Enter 10 elements in array.");
 
-    for(i=0; i<10; i++)
+    for(i = 0; i < 10; i++)
         scanf("%d", &arr[i]);
     
-    for(i=0; i<10; i++)
+    for(i = 0; i < 10; i++)
         printf("\n arr[ %d ] = %d", i, arr[i]);
 
-    for(i=9; i>=0; i--)
+    for(i = 9; i >= 0; i--)
         printf("\n reversearray[ %d ] = %d", i, arr[i]);
 
     return 0;
